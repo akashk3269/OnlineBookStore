@@ -1,0 +1,49 @@
+.heading3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 6px;
+    color: #d43b3b;
+}
+.whole-container{
+    border: 0.5px solid #ccc;
+    padding: 10px;
+    box-shadow: 3px 3px 5px #ccc;
+    height: 400px;
+
+}
+.pad{
+    padding: 12px;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.content4{
+    text-align: center;
+    height: 300px;
+    box-shadow: 3px 3px 10px #ccc;
+    transition: 1s;
+}
+.content4:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.content4>*{
+    padding: 5px;
+}
+.content4>h4{
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}

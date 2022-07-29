@@ -1,0 +1,99 @@
+.main{
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+.img-container {
+    display: block;
+    width: 80vw;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider-frame {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.content>p {
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bolder;
+    color: #d43b3b;
+    font-size: 30px;
+}
+
+.text-center{
+    margin: 20px;
+    text-align: center;
+}
+
+.myImage{
+    width: 100vw;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: antiquewhite;
+}
+
+
+.footer .box-container{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.footer .box-container .box h3{
+    color:#d43b3b;
+    padding:0.5rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    color:#d43b3b;
+    padding:0.7rem 0;
+}
+
+.footer .box-container .box a i{
+    padding-right: 0.5rem;
+}
+
+.footer .share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer .share a{
+    height: 3rem;
+    width: 3rem;
+    font-size: 40px;
+    margin-left: 15px;
+    color: white;
+    background-color: #d43b3b;
+    border-radius: 50%; 
+}
+.footer .share a i{
+    padding:0.2rem;
+}
+
+
+.footer .credit{
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #d43b3b;
+    margin-top: 10px;
+    height: 40px;
+}

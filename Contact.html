@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/style4.css">
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa fa-book" style="font-size:48px;color:white"></i><span class="title">BOOKSHOP</span>
+            </div>
+            <div class="myLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Reviews.html">Reviews</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form class="search-form">
+                    <input type="search" name="bookSearch" placeholder="Search for books here..." id="search-box">
+                    <label id="search-icon" for="search-box" class="fas fa-search"></label>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="contact-box">
+            <form action="Success.html" class="form" onsubmit="return validateForm()" novalidate>
+                <label for="name1" class="label">Name: <input type="text" id="name1" class="input-field"
+                        placeholder="Enter Your Name" onblur="validate1()"></label>
+                    
+                        <p id="error1"></p>
+                        <br>
+                <label for="email1" class="label">Email:<input type="email" id="email1" class="input-field"
+                        placeholder="Enter Your Email" onblur="validate2()"></label>
+                        <p id="error2"></p>
+                        <br>
+                        
+                <label for="message1" class="label">Message:<textarea id="message1" class="input-field textarea-field"
+                        placeholder="Enter Your Message" onblur="validate3()"></textarea></label>
+    
+                        <p id="error3"></p>
+                        
+                <input type="submit" class="btn" value="Submit">
+            </form>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="Javascript/script2.js"></script>
+</body>
+
+</html>

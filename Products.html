@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/style2.css">
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa fa-book" style="font-size:48px;color:white"></i><span class="title">BOOKSHOP</span>
+            </div>
+            <div class="myLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Reviews.html">Reviews</a></li>
+                    <li><a href="Contact.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form class="search-form">
+                    <input type="search" name="bookSearch" placeholder="Search for books here..." id="search-box">
+                    <label id="search-icon" for="search-box" class="fas fa-search"></label>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="heading3">
+            <h2>Our Products</h2>
+        </div>
+        <div class="card4">
+            <div class="whole-container">
+                <h3 class="pad">Fantasy Book</h3>
+                <div class="container4">
+                    <div class="content4">
+                        <img src="Images/book-1.png" width="190" height="190">
+                        <h4>THE ART CITY</h4>
+                        <p><span>$15.99</span><del>$25.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-2.jpg" width="190" height="190">
+                        <h4>GARDER OF MOON</h4>
+                        <p><span>$30.99</span><del>$50.44</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-3.jpg" width="190" height="190">
+                        <p><span>$19.59</span><del>$40.09</del></p>
+                        <h4>THE LOST DREAMER</h4>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-4.jpg" width="190" height="190">
+                        <h4>PEACE AND TURMOIL</h4>
+                        <p><span>$12.34</span><del>$27.39</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-5.jpg" width="190" height="190">
+                        <h4>AMERICAN GODS</h4>
+                        <p><span>$31.99</span><del>$47.32</del></p>
+                        <button  onclick="addToCart()"class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-6.jpg" width="190" height="190">
+                        <h4>THE TIGER AT MIDNIGHT</h4>
+                        <p><span>$37.43</span><del>$40.45</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="whole-container">
+                <h3 class="pad">Fiction Book</h3>
+                <div class="container4">
+                    <div class="content4">
+                        <img src="Images/book-7.jpg" width="190" height="190">
+                        <h4>BROKEN IDENTITY</h4>
+                        <p><span>$84.48</span><del>$90.32</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-8.png" width="190" height="190">
+                        <h4>BLACK HISTORY</h4>
+                        <p><span>$93.45</span><del>$100</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-9.png" width="190" height="190">
+                        <h4>LOVE</h4>
+                        <p><span>$83.32</span><del>$111.32</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-10.png" width="190" height="190">
+                        <h4>RETRO</h4>
+                        <p><span>$24.22</span><del>$35.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-11.jpg" width="190" height="190">
+                        <h4>LEGAL FICTION:A NOVEL</h4>
+                        <p><span>$10.99</span><del>$15.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-12.jpg" width="190" height="190">
+                        <h4>THE OATH OF VAYUPUTRAS</h4>
+                        <p><span>$83.39</span><del>$115.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="whole-container">
+                <h3 class="pad">Biography</h3>
+                <div class="container4">
+                    <div class="content4">
+                        <img src="Images/book-13.jpg" width="190" height="190">
+                        <h4>Steve Jobs</h4>
+                        <p><span>$27.23</span><del>$33.24</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-14.jpg" width="190" height="190">
+                        <h4>Gandhi: An Illustrated Biography</h4>
+                        <p><span>$132</span><del>$142</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-15.jpg" width="190" height="190">
+                        <h4>Edison: A Biography</h4>
+                        <p><span>$62</span><del>$70</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-16.jpg" width="190" height="190">
+                        <h4>Albert Einstein: A Biography</h4>
+                        <p><span>10.99</span><del>$15.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-17.jpg" width="190" height="190">
+                        <h4>Solitary</h4>
+                        <p><span>$73.23</span><del>$75.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-18.jpg" width="190" height="190">
+                        <h4>CV RAMAN BIOGRAPHY</h4>
+                        <p><span>$10.99</span><del>$15.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="whole-container">
+                <h3 class="pad">Mystery Book</h3>
+                <div class="container4">
+                    <div class="content4">
+                        <img src="Images/book-19.jpg" width="190" height="190">
+                        <h4>Block 46</h4>
+                        <p><span>$19.99</span><del>$24.54</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-20.jpg" width="190" height="190">
+                        <h4>Parasite</h4>
+                        <p><span>$76.32</span><del>$86.43</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-21.jpg" width="190" height="190">
+                        <h4>The Silent Patient</h4>
+                        <p><span>10.99</span><del>$15.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-22.jpg" width="190" height="190">
+                        <h4>MURDRUM</h4>
+                        <p><span>$43.9</span><del>$84.43</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-23.jpg" width="190" height="190">
+                        <h4>That Night</h4>
+                        <p><span>10.99</span><del>$15.99</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                    <div class="content4">
+                        <img src="Images/book-24.jpg" width="190" height="190">
+                        <h4>The Violet Crow</h4>
+                        <p><span>$15.69</span><del>$24</del></p>
+                        <button onclick="addToCart()" class="button">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <script src="Javascript/script1.js"></script>
+</body>
+
+</html>
